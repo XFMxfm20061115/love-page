@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8d7da;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "微软雅黑", sans-serif;
+}
+.container {
+    text-align: center;
+}
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+button {
+    padding: 12px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#yes {
+    background-color: #d63384;
+    color: white;
+}
+#no {
+    background-color: #6c757d;
+    color: white;
+}
